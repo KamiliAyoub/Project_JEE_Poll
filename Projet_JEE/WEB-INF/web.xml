@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Projet_JEE</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+	<servlet>
+		<servlet-name>Servlet_Home</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_Home</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_Home</servlet-name>
+		<url-pattern>/HOME</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet_LR</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_LR</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_LR</servlet-name>
+		<url-pattern>/LoginRegister</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet_Registration</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_Registration</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_Registration</servlet-name>
+		<url-pattern>/Registration</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet_UC</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_UC</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_UC</servlet-name>
+		<url-pattern>/UserChoice</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet_RH</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_RH</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_RH</servlet-name>
+		<url-pattern>/Le_Resource_Humaine</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet_NombreQuestion</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_NombreQuestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_NombreQuestion</servlet-name>
+		<url-pattern>/NombreQuestion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet_Questionnaire</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_Questionnaire</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_Questionnaire</servlet-name>
+		<url-pattern>/Questionnaire</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet_Test</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_Test</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_Test</servlet-name>
+		<url-pattern>/Test</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Servlet_CP</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_CP</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_CP</servlet-name>
+		<url-pattern>/Le_Chef_De_Projet</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>Servlet_fin</servlet-name>
+		<servlet-class>com.JEE.servlet.Servlet_fin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet_fin</servlet-name>
+		<url-pattern>/Fin</url-pattern>
+	</servlet-mapping>
+
+</web-app>
